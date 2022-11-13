@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55D3C0DB2921A72D0023E76F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D3C0DA2921A72D0023E76F /* Launch Screen.storyboard */; };
+		55D3C0DF2921A9220023E76F /* loginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3C0DE2921A9220023E76F /* loginPage.swift */; };
 		55ED1FC62920B5B9002A69EE /* oneWordApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED1FC52920B5B9002A69EE /* oneWordApp.swift */; };
 		55ED1FC82920B5B9002A69EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ED1FC72920B5B9002A69EE /* ContentView.swift */; };
 		55ED1FCA2920B5BD002A69EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55ED1FC92920B5BD002A69EE /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55D3C0DA2921A72D0023E76F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		55D3C0DE2921A9220023E76F /* loginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPage.swift; sourceTree = SOURCE_ROOT; };
 		55ED1FC22920B5B9002A69EE /* oneWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55ED1FC52920B5B9002A69EE /* oneWordApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneWordApp.swift; sourceTree = "<group>"; };
 		55ED1FC72920B5B9002A69EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +39,7 @@
 		55ED1FB92920B5B9002A69EE = {
 			isa = PBXGroup;
 			children = (
+				55D3C0DA2921A72D0023E76F /* Launch Screen.storyboard */,
 				55ED1FC42920B5B9002A69EE /* oneWord */,
 				55ED1FC32920B5B9002A69EE /* Products */,
 			);
@@ -51,6 +56,7 @@
 		55ED1FC42920B5B9002A69EE /* oneWord */ = {
 			isa = PBXGroup;
 			children = (
+				55D3C0DE2921A9220023E76F /* loginPage.swift */,
 				55ED1FC52920B5B9002A69EE /* oneWordApp.swift */,
 				55ED1FC72920B5B9002A69EE /* ContentView.swift */,
 				55ED1FC92920B5BD002A69EE /* Assets.xcassets */,
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D3C0DB2921A72D0023E76F /* Launch Screen.storyboard in Resources */,
 				55ED1FCD2920B5BD002A69EE /* Preview Assets.xcassets in Resources */,
 				55ED1FCA2920B5BD002A69EE /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				55ED1FC82920B5B9002A69EE /* ContentView.swift in Sources */,
 				55ED1FC62920B5B9002A69EE /* oneWordApp.swift in Sources */,
+				55D3C0DF2921A9220023E76F /* loginPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
