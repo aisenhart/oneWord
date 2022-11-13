@@ -1,36 +1,66 @@
 //
-//  ContentView.swift
-//  oneWord
+//  MyDesign.swift
+//  MyProject
 //
-//  Created by Andrew Isenhart on 11/12/22.
+//  Designed in DetailsPro
+//  Copyright © (My Organization). All rights reserved.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-   
-        ZStack {
             VStack {
-            Image("testImage").resizable().aspectRatio(contentMode: .fit).padding(.all)
-            
-                Text("Hi")
-                TextField("Enter Guess Here", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                    .padding(.all, 10.0)
-                    .background(Color.gray)
-                    .cornerRadius(/*@START_MENU_TOKEN@*/10.0/*@END_MENU_TOKEN@*/)
-                
-            
+                Divider()
+                Spacer()
+                    .frame(height: 30)
+                    .clipped()
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .fill(.primary)
+                    .overlay {
+                        Image("testImage")
+                        .renderingMode(.original)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .mask { RoundedRectangle(cornerRadius: 4, style: .continuous) }
+                        .padding(30)
+                        .background {
+                            Group {
+                            
+                        }
+                        }
+                    }
+                    .frame(width: 350, height: 350)
+                    .clipped()
+                Divider()
+                HStack {
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                    Image(systemName: "a.square")
+                        .imageScale(.large)
+                }
+                Divider()
+                RoundedRectangle(cornerRadius: 10, style: .continuous)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
+                    .clipped()
+            }
         }
-        
-        }
-       
-        
-        
-  
-        
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
