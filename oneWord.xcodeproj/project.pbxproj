@@ -56,8 +56,8 @@
 		55ED1FC42920B5B9002A69EE /* oneWord */ = {
 			isa = PBXGroup;
 			children = (
-				55D3C0DE2921A9220023E76F /* loginPage.swift */,
 				55ED1FC52920B5B9002A69EE /* oneWordApp.swift */,
+				55D3C0DE2921A9220023E76F /* loginPage.swift */,
 				55ED1FC72920B5B9002A69EE /* ContentView.swift */,
 				55ED1FC92920B5BD002A69EE /* Assets.xcassets */,
 				55ED1FCB2920B5BD002A69EE /* Preview Content */,
