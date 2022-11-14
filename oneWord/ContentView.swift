@@ -1,9 +1,8 @@
 //
-//  MyDesign.swift
-//  MyProject
+//  loginPage.swift
+//  oneWord
 //
-//  Designed in DetailsPro
-//  Copyright © (My Organization). All rights reserved.
+//  Created by Andrew Isenhart on 11/13/22.
 //
 
 import SwiftUI
