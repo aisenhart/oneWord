@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "stickHanging.png",
+      "filename" : "stickHanging1 .png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "stickHanging2x.png",
+      "filename" : "stickHanging1 2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "stickHanging3x.png",
+      "filename" : "stickHanging1 3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
