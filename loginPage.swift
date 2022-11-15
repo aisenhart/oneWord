@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct loginPage: View {
+    @State var isModal: Bool = false
+    
     var body: some View {
         VStack {
             Image("stickSitting")
@@ -118,13 +120,66 @@ struct loginPage: View {
                     RoundedRectangle(cornerRadius: 10, style: .continuous)
                         .fill(.primary)
                 }
-                Text("Click here to skip.")
-                    .padding(.top)
-                    .foregroundColor(Color(.tertiaryLabel))
-                    .font(.subheadline)
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                //make it so that the small text below the apple login "Continue as a guest" takes the user to ContentView() view
+            Button(action: {
+                self.isModal = true
+            }) {
+                Text("Continue as a guest")
+                    .font(.body.weight(.medium))
+                    .foregroundColor(Color(.gray))
+                    .padding(.vertical, 5)
+                    .frame(maxWidth: .infinity)
+                    .clipped()
+                NavigationLink(destination: ContentView(), isActive: $isModal) {
+                    EmptyView()
+                }
+            }
+            
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
             }
             .padding(.horizontal)
             Spacer()
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
         }
     }
 }
