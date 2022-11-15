@@ -120,72 +120,30 @@ struct loginPage: View {
                     RoundedRectangle(cornerRadius: 10, style: .continuous)
                         .fill(.primary)
                 }
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                //make it so that the small text below the apple login "Continue as a guest" takes the user to ContentView() view
+            }
+            .padding(.horizontal)
+
             Button(action: {
                 self.isModal = true
             }) {
-                Text("Continue as a guest")
-                    .font(.body.weight(.medium))
-                    .foregroundColor(Color(.gray))
-                    .padding(.vertical, 5)
-                    .frame(maxWidth: .infinity)
-                    .clipped()
-                NavigationLink(destination: ContentView(), isActive: $isModal) {
-                    EmptyView()
-                }
+                Text("Continue as guest")
             }
-            
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
+            .sheet(isPresented: $isModal) {
+                ContentView()
             }
-            .padding(.horizontal)
-            Spacer()
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
         }
     }
 }
+
+
+
+
 
 struct loginPage_Previews: PreviewProvider {
     static var previews: some View {
         loginPage()
     }
 }
+
+
+
